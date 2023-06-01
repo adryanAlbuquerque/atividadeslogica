@@ -2,6 +2,10 @@ print("Olá, Mundo!")
 
 #ISSO É UM COMENTARIO
 
+#OUTRO COMENTÁRIO
+
+#MAIS UM COMENTÁRIO
+
 """
 ISSO É UM COMENTÁRIO  (Docstring)
 COM
