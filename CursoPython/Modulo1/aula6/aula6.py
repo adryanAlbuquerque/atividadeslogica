@@ -12,4 +12,4 @@ peso = 75
 imc = peso / altura**2
 
 print(f"O indice de massa corporal é: {imc:.2f}")
-print('{} tem {} anos, sua altura é {}, e seu peso é {}Kg'.format(nome,idade,altura,peso))
+print('{} tem {} anos, sua altura é {:.2f}, e seu peso é {}Kg'.format(nome,idade,altura,peso))
