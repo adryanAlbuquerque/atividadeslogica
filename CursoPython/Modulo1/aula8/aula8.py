@@ -2,9 +2,11 @@
 Condições   IF - ELIF - ELSE
 """
 
-num = 1
+nome = input("Qual seu nome? ")
+idade = int(input("Quantos anos você tem? "))
 
-if num > 0:
-    print(f"{num} é maior que 0")
+if idade > 18:
+    print(f"{nome} pode fazer um empréstimo!")
+
 else:
-    print(f"{num} não é maior que 0")
+    print(f"{nome} não pode fazer empréstimo pois é menor de idade!")
