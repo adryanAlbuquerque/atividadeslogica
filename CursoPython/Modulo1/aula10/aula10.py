@@ -1,4 +1,7 @@
-usuario = input("Digite seu usuário: ")
-qtd_caracter = len(usuario)
+senha = input("Digite sua senha: ")
+qtd_caracter = len(senha)
 
-print(usuario,qtd_caracter,type(qtd_caracter))
+if qtd_caracter >= 6:
+    print("Usuário cadastrado!")
+else:
+    print("Por favor, digite uma senha com mais de 6 caracteres!")
